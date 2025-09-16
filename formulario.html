@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <form>
+        <input type="text" placeholder="Seu nome"/>
+        <br/>
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" />
+        <br />
+        <input type="tel" placeholder="Seu telefone" /> <br />
+        <input type="number" max="10" min="2" step="2"/> <br />
+        <input type="file" /> <br />
+        <input type="color" /> <br />
+        <input type="checkbox" id="checkbox-termos" /><label for="checkbox-termos">Aceito</label> <br />
+        <p>
+            Que número prefere?
+        </p>
+        <input type="radio" name="num-prefere" id="num-3" /><label for="num-3">Número 3</label><br />
+        <input type="radio" name="num-prefere" id="num-7" /><label for="num-7">Número 7</label><br />
+        <input type="radio" name="num-prefere" id="num-5" /><label for="num-5">Número 5</label><br />
+
+        <label>Qual seu filme favorito?</label>
+        <select>
+            <option>Filme A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br />
+        <label>Qual seu filme favorito?</label>
+        <select multiple>
+            <option>Filme A</option>
+            <option>Filme B</option>
+            <option>Filme C</option>
+        </select>
+        <br />
+        <textarea>        </textarea>
+        <button type="submit">
+            Enviar
+        </button>
+        <button typr="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+</html>
